@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background-color: #ECE6C2;
+  --primary-color: #6F5643;
+  --secondary-color: #D2A24C;
+  --third-color: #CC6B49;
+  --fourth-color: #73BDA8;
+}
+
+nav .dekstop a {
+  @apply mx-5;
+}
+
+#icon-sosmed svg {
+  @apply my-5;
+}/*# sourceMappingURL=style.css.map */
