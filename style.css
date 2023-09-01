@@ -15,4 +15,24 @@ nav .dekstop a {
 
 #icon-sosmed svg {
   @apply my-5;
+}
+
+.know-more__card {
+  @apply bg-[white] w-2/3 mx-auto drop-shadow-2xl rounded-xl overflow-hidden;
+}
+
+.about-us__founder {
+  @apply grid grid-cols-4 gap-8;
+}
+.about-us__founder .people {
+  @apply p-5 bg-[white] drop-shadow-2xl rounded-lg;
+}
+.about-us__founder .people img {
+  @apply h-36 w-36 rounded-full mx-auto mb-6;
+}
+.about-us__founder .people .messages {
+  @apply text-center;
+}
+.about-us__founder .people .messages .human .name {
+  @apply font-bold text-xl mt-4;
 }/*# sourceMappingURL=style.css.map */

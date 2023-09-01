@@ -23,3 +23,29 @@ nav {
         @apply my-5;
     }
 }
+
+.know-more {
+    &__card {
+        @apply bg-[white] w-2/3 mx-auto drop-shadow-2xl rounded-xl overflow-hidden;
+    }
+}
+
+.about-us {
+    &__founder {
+        @apply grid grid-cols-4 gap-8;
+        .people {
+            @apply p-5 bg-[white] drop-shadow-2xl rounded-lg;
+            img {
+                @apply h-36 w-36 rounded-full mx-auto mb-6;
+            }
+            .messages {
+                @apply text-center;
+                .human {
+                    .name {
+                        @apply font-bold text-xl mt-4;
+                    }
+                }
+            }
+        }
+    }
+}

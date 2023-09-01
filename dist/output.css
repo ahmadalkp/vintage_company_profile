@@ -551,4 +551,51 @@ nav .dekstop a {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
+
+.know-more__card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 66.666667%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.about-us__founder {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.about-us__founder .people {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1.25rem;
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.about-us__founder .people img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 9999px;
+}
+
+.about-us__founder .people .messages {
+  text-align: center;
+}
+
+.about-us__founder .people .messages .human .name {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
 /*# sourceMappingURL=output.css.map */
